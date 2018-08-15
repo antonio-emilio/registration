@@ -1,0 +1,137 @@
+<html>
+<style>
+	 form{
+	  position:relative;
+	  width:300px;
+	  padding-left:400px;
+	  font-family:sans-serif;
+	 }
+	 input[type="text"],input[type="number"],input[type="file"],input[type="date"],input[type="password"],input[type="email"]{
+	 width:30%;
+	 height:25px;
+	 font-size: 15px;
+	 position:absolute;
+	 left:600px;
+	 border: 1px solid #ccc;
+	 border-radius: 2px;
+	 box-sizing: border-box;
+	 font-family: "Georgia", sans-serif !important;
+	 }
+	 
+	 input[type="radio"]
+	 {
+	  position:absolute;
+	  left:600px;
+	 }
+	 input[type="checkbox"]
+	 {
+		 position:absolute;
+		 right:480px;
+	 }
+	 label{
+		 font-size:15px;
+	 float:left;
+	 }
+	 #dur{
+	 float:left;
+	 }
+	 select{
+	 position:absolute;
+	 left:600px;
+	 height:25px;
+	 border: 2px solid #ccc;
+	 border-radius: 4px;
+	 box-sizing: border-box;
+	 }
+	 textarea{
+	 position:relative;
+	 left:85px;
+	 box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+
+	 }	
+	 #radioop{
+	 position:absolute;
+	 left:620px;
+	 font-family: "arial";
+	 font-size: 15px;
+	 }
+	 
+	 #fs {
+	 	border:1px groove;
+	 	background-color: rgb(250,250,250);
+
+	 }
+	  #address{
+	 	left:43px;
+	 }
+	 form ul
+		{
+		padding:5px 10px;
+		list-style: none;
+		}
+	form li:first-child
+		{
+		border:none;
+		}
+	form legend
+		{
+		color: #000000
+		
+		font-size:1.3em;
+		font-weight: bold;
+		font-variant:small-caps;
+		
+		margin-right: 25em;
+		padding:0px 5px;
+		}
+	form fieldset p{
+ 		margin:100px 0px 0px 10px;
+ 		}
+ 	
+	form fieldset
+		{
+		margin: 0 0 1.4em 0;
+		padding: 0 0 10px 0px;
+		
+		border: 1px solid #BFBAB0;
+		
+		background-color: #F2EFE9;
+	 background-image: url(images/fieldset_gradient.jpg); 
+		background-repeat: repeat-x;
+		
+		background-color: #fff;
+		background-image: url(images/fieldset-gradient-02.jpg);
+		background-position:bottom;
+		
+		float: left;
+		clear: both;
+		width: 100%;
+		
+		}
+
+	form .text, 
+	form .button,
+	form .group,
+	form .control,
+	form .submit,
+	form select
+		{
+		width: 200px !important;
+		}
+
+	form label
+		{
+		padding:0px 10px;
+		
+		float: left;
+		}	
+		body {
+		background-image: url(websitebg.jpg);
+background-repeat: repeat-x;
+background-position: center bottom;
+}
+
+</style>
+</html>
